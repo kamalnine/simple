@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(243, 217, 222);
+}
+.container {
+    height: 500px;
+    width: 1000px;
+    background-color: hsl(214deg, 10%, 14%);
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.nav
+{
+    height: 100px;
+    width: 100%;
+    background-color: hsl(214deg, 10%, 14%);
+    display: flex;
+    border-bottom: 2px solid white;
+}
+.brand{
+    height: 100%;
+    width: 20%;
+    background-color: hsl(214deg, 10%, 14%);
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #aaaaaa;
+
+}
+.navopt{
+    height: 100%;
+    width: 80%;
+    background-color: hsl(214deg, 10%, 14%);
+    color: white;
+    display: flex;
+    font-size: 20px;
+
+    
+   
+}
+.brand img{
+    border-radius: 50%;
+    margin-right: 15px;
+    
+}
+.navopt ul
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.hero
+{
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    display: flex;
+}
+.about
+{
+    height: 100%;
+    width: 60%;
+    background-color: hsl(214deg, 10%, 14%);
+    color: white;
+    padding-top: 80px;
+    padding-left: 30px;
+
+}
+.profile
+{
+    height: 100%;
+    width: 40%;
+    background-color: hsl(214deg, 10%, 14%);
+
+}
+.profile img{
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+    
